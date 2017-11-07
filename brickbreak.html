@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <canvas id="gameCanvas" width="1840" height="940"></canvas>
     <audio id="my_audio" src="MLG Darude Sandstorm.mp3" loop="loop"></audio>
 
 
@@ -17,13 +17,13 @@
 
     const BRICK_W = 80;
     const BRICK_H = 20;
-    const BRICK_COLS = 10;
+    const BRICK_COLS = 25;
     const BRICK_GAP = 2;
     const BRICK_ROWS = 14;
 
     var brickGrid = new Array(BRICK_COLS * BRICK_ROWS);
-    const PADDLE_WIDTH = 100;
-    const PADDLE_THICKNESS = 10;
+    const PADDLE_WIDTH = 150;
+    const PADDLE_THICKNESS = 20;
     const PADDLE_DIST_FROM_EDGE  = 60;
     var paddleX = 400;
     var canvas, canvasContext
